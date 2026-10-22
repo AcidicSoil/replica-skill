@@ -1,7 +1,7 @@
 # The Replica skill
 
-Eleven Claude skills that clone any app. Free, MIT, no signup, no API key,
-nothing to connect.
+Eleven skills for Claude Code and Codex that clone any app. Free, MIT, no
+signup, no API key, nothing to connect.
 
 One reverse-engineers the app you want to clone. One rebuilds it. One tests it
 for bugs. And one is the Entrepreneur: it reads what the app's users hate and
@@ -48,6 +48,19 @@ top of a chat and it runs as a mode. You lose the Python tools, but the
 method works.
 
 The tools need Python 3.8 or newer. Nothing to pip install.
+
+### Codex
+
+Install the Codex plugin from this fork:
+
+```bash
+codex plugin marketplace add AcidicSoil/replica-skill
+codex plugin add replica-skill@replica-skill-acidicsoil
+```
+
+Start a new Codex session after installation. The same eleven skill folders
+and their Python tools are shared by the Claude Code and Codex manifests.
+No separate copy of the skills is required.
 
 ## The eleven
 

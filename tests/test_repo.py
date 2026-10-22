@@ -49,8 +49,8 @@ class Repo(unittest.TestCase):
             readme = " ".join(fh.read().split())
         self.assertTrue(readme.startswith("# The Replica skill"))
         for line in (
-            "Eleven Claude skills that clone any app. Free, MIT, no signup, no API key, "
-            "nothing to connect.",
+            "Eleven skills for Claude Code and Codex that clone any app. Free, MIT, no "
+            "signup, no API key, nothing to connect.",
             "One reverse-engineers the app you want to clone. One rebuilds it. One tests it "
             "for bugs. And one is the Entrepreneur: it reads what the app's users hate and "
             "fixes it in yours, so you have an app you can sell.",

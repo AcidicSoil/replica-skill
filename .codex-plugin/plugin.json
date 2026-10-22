@@ -1,0 +1,18 @@
+{
+  "name": "replica-skill",
+  "version": "1.0.0",
+  "description": "Eleven Codex skills for clean-room app replication, testing, and launch.",
+  "author": {
+    "name": "Jake Schincariol",
+    "url": "https://opusjake.ai"
+  },
+  "homepage": "https://github.com/AcidicSoil/replica-skill",
+  "repository": "https://github.com/AcidicSoil/replica-skill",
+  "license": "MIT",
+  "keywords": ["codex", "skills", "app-clone", "reverse-engineering", "product"],
+  "skills": "./",
+  "interface": {
+    "displayName": "Replica skill",
+    "shortDescription": "Eleven app replication workflows"
+  }
+}
